@@ -6,6 +6,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+    <img id="Pata" src="assets/aaa.png" alt="Pata">
     
+      <div class="h1">
+      <h1>Formulário de Adoção de Cães</h1>
+      </div>
+   </div>
+</header>
+
+    <div class="a">
+    <form id="formAdocao">
+    <br>
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Digite seu email">
+    <br>
+    <br>
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" placeholder="Digite seu telefone">
+    <br>
+    <br>
+    <label for="CPF">CPF:</label>
+    <input type="text" id="CPF" placeholder="Digite seu CPF">
+    <br>
+    <br>
+    <label for="idade">Idade:</label>
+    <input type="text" id="idade" placeholder="Digite sua idade">
+    <br>
+    <br>
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" placeholder="Digite sua cidade">
+    <br>
+    <br>
+
+    <label for="moradia">Mora em:</label>
+    <input type="radio" name="moradia" value="Casa">Casa
+    <input type="radio" name="moradia" value="Apartamento">Apartamento
+    <br>
+    <br>
+
+    <label for="quintal">Possui Quintal?</label>
+    <input type="radio" name="quintal" value="sim">Sim
+    <input type="radio" name="quintal" value="nao">Não
+    <br>
+    <br>
+
+    <label for="pet">Já teve pet antes?</label>
+    <input type="radio" name="pet" value="sim">Sim
+    <input type="radio" name="pet" value="nao">Não
+    <br>
+    <br>
+
+    <label for="horas">Quantas horas o animal ficará sozinho por dia:</label>
+    <input type="text" id="horas" placeholder="Digite um número">
+    <br>
+    <br>
+
+    <label for="motivo">Motivo da adoção:</label>
+    <input type="text" id="motivo" placeholder="Digite seu motivo">
+    <br>
+    <br>
+
+    <label for="termos">Aceite do termo de responsabilidade</label>
+    <input type="checkbox" name="termos" value="aceite">Aceitar
+    <br>
+    <br>
+
+    <button type="submit">Enviar</button>
+    </form>
+    
+    <div id="resultado"></div>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>
