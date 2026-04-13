@@ -34,6 +34,9 @@ header{
 
 #imagemFofa{
     justify-items: end;
+    justify-content: end;
+    justify-self: end;
     display: flex;
     width: 30px;
+    height: 30px;
 }
