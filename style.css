@@ -32,11 +32,11 @@ header{
     justify-content: center;
 }
 
-#imagemFofa{
-    justify-items: end;
-    justify-content: end;
-    justify-self: end;
-    display: flex;
-    width: 30px;
-    height: 30px;
+.imagemFofa{
+    position: fixed;
+    bottom: 20px;  
+    right: 20px;   
+    width: 200px; 
+    height: auto; 
+    z-index: 1000;
 }
