@@ -31,3 +31,9 @@ header{
 .h1{
     justify-content: center;
 }
+
+#imagemFofa{
+    justify-items: end;
+    display: flex;
+    width: 30px;
+}
