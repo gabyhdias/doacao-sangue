@@ -3,12 +3,15 @@ document.getElementById("formDoacao").addEventListener("submit", function (e) {
 
     let nome = document.getElementById("nome").value;
     let email = document.getElementById("email").value;
-    let telefone = document.getElementById("telefone").value;
-    let CPF = document.getElementById("CPF").value;
     let idade = document.getElementById("idade").value;
-    let cidade = document.getElementById("cidade").value;
+    let peso = document.getElementById("peso").value;
     
     let tipoSanguineo = document.querySelector('input[name="tipoSanguineo"]:checked');
+
+    let telefone = document.getElementById("telefone").value;
+    let cidade = document.getElementById("cidade").value;
+    let estado = document.getElementById("estado").value;
+    
 
     if(nome.length < 3 ) return alert("Nome Inválido");
     if(idade.value < 18 ) return alert("Idade Inválida");
